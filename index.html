@@ -1,25 +1,129 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
+<!doctype html>
+    <html lang=ru>
+    <head>
+    	<meta charset=utf-8>
 
-<html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Document	 </title>
+    	<!-- Title and Favicon-->	
+    	<title>NewDoc</title>
+    	<link rel="icon" href="#" type="image/x-icon">
 
-</head>
-<body>
-<h1>GIT</h1>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<p>Изменение номер 1</p>
+    	<!--META tags-->
+    	<meta name="keywords" content="keywords">
+    	<meta name="description" content="description">
 
-<p>Changes 2</p>
-<h3>I did it</h3>
-</body>
+    	<!--Add styles-->	
+    	<link rel="stylesheet" href="src/css/reset.css" />
+    	<link rel="stylesheet" href="src/css/bootstrap.css" />
+		<link rel="stylesheet" href="src/css/style.css" />
+		<link rel="stylesheet" href="src/css/header.css" />
+		<link rel="stylesheet" href="src/css/content.css" />
+	    <!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></	script>
+		<![endif]-->
+    </head>
+    <body>
 
+<div class="container wrap pull-left">
+        <header> 
+        <div class="container-fluid header-top">
+        	<div class="row">
+        		<div id='user_id' class="top-left col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        			<a href="#"><img class="img-circle avatar" src="src/images/user.jpg" alt="Generic placeholder image" width="60" height="60">Пушкин А. С.</a><span class="unread">7</span>
+        		</div>
+        		<div id="logo" class="top-mid col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        			<a class="logo" href="../">
+        				<img src="src/images/logo.png">
+        			</a>
+        		</div>
+        		<div id='addit' class="top-right col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        			<ul>
+        				<li class="addit-active"><a href='#'>За рулем</a></li>
+        				<li><a href='#'>Песочница</a></li>
+        			</ul>
+        		</div>
+        	</div>
+        </div>
+
+            <nav class="navbar navbar-inverse" role="navigation">
+             	<div class="container-fluid desk-navbar">
+             		<!-- Brand and toggle get grouped for better mobile display -->
+             		<div class="navbar-header">
+             			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+             				<span class="sr-only">Toggle navigation</span>
+             				<span class="icon-bar"></span>
+             				<span class="icon-bar"></span>
+             				<span class="icon-bar"></span>
+             			</button>
+             			<div class="map-button">
+             			<a id="sitemap" class="navbar-brand" href="#">Весь сайт</a></div>
+             		</div>
+             
+             		<!-- Collect the nav links, forms, and other content for toggling -->
+             		<div class="collapse navbar-collapse navbar-ex1-collapse">
+             			<ul class="nav navbar-nav">
+             				<li class=""><a href="#">Моя лента</a></li>
+             				<li><a href="#">Новости</a></li>
+             				<li><a href="#">Статьи</a></li>
+             				<li><a href="#">Тесты</a></li>
+             				<li><a href="#">Марки и модели</a></li>
+             				<li><a href="#">Фото и видео</a></li>
+             			</ul>
+             			
+             			
+             			<form class="navbar-form navbar-right" role="search">
+             				<div class="input-group">
+             					<input type="text" class="form-control" placeholder="Поиск...">
+             					 <span class="input-group-btn">
+             					 <button class="btn btn-default" type="button">
+             					 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+             					 </button>
+             					</span>
+             				</div>
+             				
+             			</form>
+             			
+             		</div><!-- /.navbar-collapse -->
+             	</div>
+             </nav>
+        </header>
+        <div id="content" class="container-fluid">
+	 		<section id="advert">
+	 			<img class="advert-pic" src="src/images/mainpage.jpg">
+	 			<div class="container-fluid overall">	
+		 			
+		 				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		 					<div class="adv1"><h1>ИГРАЙТЕ</h1><h2>c "За Рулем"</h2>
+		 					<img src="src/images/phone.png">
+		 					<p class="adv1-moveup">Смартфоны<br> в руки и вперед<br> за призами!</p>
+
+		 					</div>
+		 				</div>
+		 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+		 					
+		 				</div>
+		 				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+		 					
+		 				</div>
+		 			
+		 		</div>
+	 		</section>
+
+	        <section id="articles">
+	             <article>Пост</article>
+	             <aside>Боковая колонка</aside>
+	        </section>
+ 		</div>
+
+        <footer>Подвал</footer>
+</div>
+        <!-- Add JS -->
+        <script src="src/js/jquery-1.12.4.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+        <script src="src/js/jquery.easing.1.3.min.js"></script>
+        <script src="src/js/bootstrap.js"></script>
+        <script src="src/js/header.js"></script>
+    </body>
 </html>
+
