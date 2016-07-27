@@ -1,4 +1,4 @@
-/* Za-Rulem -v 0.0.1 - 2016-07-26 */
+/* Za-Rulem -v 0.0.1 - 2016-07-27 */
 // A $( document ).ready() block.
 $( document ).ready(function() {
     console.log( "ready!" );
