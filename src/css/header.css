@@ -99,9 +99,12 @@ background-color: #E40025;
 }
 
 #sitemap.navbar-brand{
+
+  float: right;
+
+  width: 100%;
   color: #fff;
-  margin-left: 25px;
-  margin-top: 2px;
+  margin-left: 0px;
 }
 #sitemap.navbar-brand:hover{
   color: #999;
