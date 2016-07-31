@@ -98,14 +98,18 @@ background-color: #E40025;
   border-right: 8px solid transparent;
 }
 
-#sitemap.navbar-brand{
 
+
+#sitemap.navbar-brand{
+  
+  width:100%;
   float: right;
 
   width: 100%;
   color: #fff;
   margin-left: 0px;
 }
+#sitemap.navbar-brand img{display: inline-block;}
 #sitemap.navbar-brand:hover{
   color: #999;
 }
