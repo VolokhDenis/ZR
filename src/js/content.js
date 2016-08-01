@@ -1,6 +1,6 @@
 
 $( document ).ready(function() {
-    var circs = $('.addit-info').length
+    var circs = $('.addit-info').length;
     console.log( circs );
 
 for (var i = 1; i <= circs; i++) {

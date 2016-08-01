@@ -1,1 +1,0 @@
-var gallery="gal1";

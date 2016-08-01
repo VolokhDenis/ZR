@@ -23,7 +23,7 @@ module.exports=function(grunt){
 		      			}
 		    		},
 		    		'<%= pkg.name %>':{
-		    		src: [ 'src/js/header.js' ]
+		    		src: [ 'src/js/header.js','src/js/content.js']
 		    		}
 		    	},   
 
@@ -34,7 +34,7 @@ module.exports=function(grunt){
 		    		},
 
 		    		dist:{
-		    			src: [ 'src/js/header.js' ],
+		    			src: [ 'src/js/header.js','src/js/content.js'],
 		    			dest: 'dest/build.js' 
 		    		}
 
@@ -60,7 +60,7 @@ module.exports=function(grunt){
 
 		    			files: { 
 		    				//название выходного файла : [название файлов для конкатинации, Важно так как это css файлы, лучше вводить их названия по порядку]
-		    				'dest/style.min.css' : ['src/css/style.css','src/css/header.css']
+		    				'dest/style.min.css' : ['src/css/style.css','src/css/header.css','src/css/content.css']
 		    			}
 		    		} 
 
